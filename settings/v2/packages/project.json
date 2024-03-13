@@ -1,0 +1,32 @@
+{
+  "general": {
+    "designResolution": {
+      "width": 1920,
+      "height": 1080,
+      "fitWidth": false,
+      "fitHeight": true
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "area"
+      },
+      {
+        "index": 2,
+        "name": "team1"
+      },
+      {
+        "index": 3,
+        "name": "team2"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 12,
+      "2": 10,
+      "3": 6
+    }
+  }
+}
